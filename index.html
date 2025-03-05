@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            text-align: center;
+            margin: auto;
+            width: 50%;
+            color: rgb(5, 1, 1);
+            border: white;
+
+            main {
+            background-color: rgb(74, 138, 38);
+            }
+        }
+
+        thead {
+            background-color: rgb(10, 13, 14);
+            color: white;
+        }
+
+        tr, td {
+            border: 1px solid;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .d1:hover, .d2:hover, .d3:hover, 
+        .d4:hover, .d5:hover, .d6:hover, 
+        .d7:hover, .d8:hover, .d9:hover {
+            color: white;
+            background: rgb(14, 68, 75);
+            cursor: pointer;
+            font-size: 50px;
+        } 
+    </style>
+</head>
+<body>
+    <table>
+        <Caption><h1>Gabriel Website</h1></Caption>
+        <thead>
+            <tr>
+                <td>Name</td><td>Age</td><td>Gender</td>
+            </tr>
+        </thead>
+    
+        <main>
+            <tr>
+                <td class="d1">Gabriel</td><td class="d2">20</td><td class="d3">Male</td>
+            </tr>
+            <tr>
+                <td class="d4">Dabdab</td><td class="d5">21</td><td class="d6">Male</td>
+            </tr>
+            <tr>
+                <td class="d7">Judiel</td><td class="d8">20</td><td class="d9">Male</td>
+            </tr>
+        </main>
+    </table>
+</body>
+</html>
